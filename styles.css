@@ -1,0 +1,23 @@
+header>h1{
+    display: flex;
+    justify-content: center;
+}
+.profil-container{
+    display: flex;
+    justify-content: center;
+}
+.profil-container>img{
+    width: 20em;
+    height: 20em;
+}
+.skills-container>p{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container>nav>ul>li{
+    list-style: none;
+}
+.contact-container>a{
+    padding: 0em 1em;
+}
