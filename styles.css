@@ -1,3 +1,6 @@
+header{
+    background-color: rgb(171, 147, 103);
+}
 header>h1{
     display: flex;
     justify-content: center;
@@ -11,7 +14,6 @@ header>h1{
     width: 20em;
     height: 20em;
 }
-
 .skills-container>p{
     font-size: 1.3em;
     display: flex;
@@ -25,6 +27,14 @@ header>h1{
     font-size: 1.2em;
     list-style: none;
 }
+.resume-container{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(171, 147, 103);
+}
 .contact-container>a{
     padding: 0em 1em;
+    color: white;
 }
