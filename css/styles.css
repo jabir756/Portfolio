@@ -1,3 +1,7 @@
+header, main, nav, footer{
+    border-radius: 10px;
+}
+
 header>header{
     background-color:white;
     color: black;
@@ -26,11 +30,9 @@ header>header>h2{
     text-align: center;
 }
 
-.nav-container{
-    justify-content: center;
-}
-
 .nav-container>nav>ul>li{
+    display: inline;
+    padding: 0em 0.8em;
     font-size: 1.2em;
     list-style: none;
 }
