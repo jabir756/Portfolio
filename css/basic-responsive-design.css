@@ -40,7 +40,7 @@ li {
 button {
     padding: 10px 20px;
     border: none;
-    background-color: rgb(82, 225, 82);
+    background-color: #007BFF;
     color: #fff;
     cursor: pointer;
     font-size: 1em;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(12, 121, 12);
+    background-color: #0056b3;
 }
 
 /* Layout */
