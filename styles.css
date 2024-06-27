@@ -1,5 +1,6 @@
 header{
-    background-color: rgb(171, 147, 103);
+    background-color:white;
+    color: black;
 }
 header>h1{
     display: flex;
@@ -33,9 +34,10 @@ header>h1{
     justify-content: center;
 }
 footer{
-    background-color: rgb(171, 147, 103);
+    color:black;
+    background-color:white;
 }
 .contact-container>a{
     padding: 0em 1em;
-    color: white;
+    color: black;
 }
