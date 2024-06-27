@@ -1,9 +1,9 @@
-header{
+header>header{
     background-color:white;
     color: black;
 }
 
-header>h2{
+header>header>h2{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -40,7 +40,7 @@ header>h2{
     justify-content: center;
 }
 
-footer{
+footer>footer{
     color:black;
     background-color:white;
 }
