@@ -13,6 +13,25 @@ header>header>h2{
     text-align: center;
 }
 
+.sticky-nav{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0em;
+    justify-content: center;
+    text-align: center;
+}
+
+.sticky-nav>nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.sticky-nav>nav>a{
+    color: black;
+}
+
 .profil-container{
     display: flex;
     justify-content: center;
@@ -52,6 +71,7 @@ footer>footer{
 }
 
 .contact-container>a{
+    text-decoration: underline;
     padding: 0em 1em;
     color: black;
 }
