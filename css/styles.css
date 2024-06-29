@@ -13,8 +13,9 @@ header>header>h2{
     text-align: center;
 }
 
-.sticky-nav{
+.sticky-nav {
     background-color: transparent;
+    -webkit-backdrop-filter: blur(5px); /* Safari */
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0em;
