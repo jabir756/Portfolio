@@ -2,21 +2,29 @@ header, main, nav, footer{
     border-radius: 10px;
 }
 
-header>header{
+header{
     background-color:white;
     color: black;
 }
 
-header>header>h2{
+header>div{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
 }
 
-.sticky-nav {
-    background-color: transparent;
-    -webkit-backdrop-filter: blur(5px); /* Safari */
-    backdrop-filter: blur(5px);
+header>div>img{
+    height: 5em;
+    width: 5em;
+}
+
+header>div>p{
+    padding: 0em 1em;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.sticky-nav{
     position: sticky;
     top: 0em;
     justify-content: center;
@@ -24,6 +32,7 @@ header>header>h2{
 }
 
 .sticky-nav>nav{
+    justify-content: center;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -39,8 +48,8 @@ header>header>h2{
 }
 
 .profil-container>img{
-    width: 20em;
-    height: 20em;
+    width: 12em;
+    height: 12em;
 }
 
 .skills-container>p{
@@ -55,8 +64,7 @@ header>header>h2{
 }
 
 .nav-container>nav>ul>li{
-    display: inline;
-    padding: 0em 0.8em;
+    padding: 0.8em 0.8em;
     font-size: 1.2em;
     list-style: none;
 }
@@ -66,7 +74,7 @@ header>header>h2{
     justify-content: center;
 }
 
-footer>footer{
+footer{
     color:black;
     background-color:white;
 }
