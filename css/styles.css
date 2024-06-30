@@ -60,11 +60,12 @@ header>div>p{
 }
 
 .resume-container{
-    margin-top: 2em;
+    border-top: 2px dashed ;
+    padding-top: 0.5em ;
     display: flex;
     justify-content: center;
 }
 
 .resume-container>button{
-    width: 20em;
+    width: 400px;
 }
