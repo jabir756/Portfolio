@@ -61,6 +61,14 @@ header>div>p{
 
 .nav-container>nav{
     justify-content: center;
+    overflow: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav-container>nav>ul{
+    display: flex;
+    flex-direction: row;   
 }
 
 .nav-container>nav>ul>li{
@@ -72,15 +80,4 @@ header>div>p{
 .resume-container{
     display: flex;
     justify-content: center;
-}
-
-footer{
-    color:black;
-    background-color:white;
-}
-
-.contact-container>a{
-    text-decoration: underline;
-    padding: 0em 1em;
-    color: black;
 }
