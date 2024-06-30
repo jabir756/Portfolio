@@ -23,13 +23,13 @@ header>div>p{
     font-size: 1.2em;
 }
 
-.sticky-nav{
+.nav-container{
     position: sticky;
     top: 0em;
     justify-content: center;
 }
 
-.sticky-nav>nav{
+.nav-container>nav{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -37,7 +37,7 @@ header>div>p{
     background-color: white;    
 }
 
-.sticky-nav>nav>a{
+.nav-container>nav>a{
     color: black;
 }
 
@@ -58,8 +58,6 @@ header>div>p{
 }
 
 .resume-container{
-    border-top: 2px dashed ;
-    padding-top: 0.5em ;
     display: flex;
     justify-content: center;
 }
