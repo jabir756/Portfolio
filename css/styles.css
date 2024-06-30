@@ -63,7 +63,6 @@ header>div>p{
     justify-content: center;
     overflow: auto;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 .nav-container>nav>ul{
