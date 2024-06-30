@@ -21,21 +21,20 @@ header>div>img{
 header>div>p{
     padding: 0em 1em;
     font-size: 1.2em;
-    display: flex;
 }
 
 .sticky-nav{
     position: sticky;
     top: 0em;
     justify-content: center;
-    text-align: center;
 }
 
 .sticky-nav>nav{
-    justify-content: center;
-    background-color: white;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: white;    
 }
 
 .sticky-nav>nav>a{
@@ -53,7 +52,6 @@ header>div>p{
 }
 
 .profil-container>p{
-    text-align: center;
     margin-top: 1em;
     width: 8em;
     font-size: 1.2em;
