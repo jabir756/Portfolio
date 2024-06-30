@@ -1,67 +1,70 @@
-header, main, nav, footer{
+header,
+main,
+nav,
+footer {
     border-radius: 10px;
 }
 
-header{
-    background-color:white;
+header {
+    background-color: white;
     color: black;
 }
 
-header>div{
+header>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-header>div>img{
+header>div>img {
     height: 5em;
     width: 5em;
 }
 
-header>div>p{
+header>div>p {
     padding: 0em 1em;
     font-size: 1.2em;
 }
 
-.nav-container{
+.nav-container {
     position: sticky;
     top: 0em;
     justify-content: center;
 }
 
-.nav-container>nav{
+.nav-container>nav {
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    background-color: white;    
+    background-color: white;
 }
 
-.nav-container>nav>a{
+.nav-container>nav>a {
     color: black;
 }
 
-.profil-container{
+.profil-container {
     display: flex;
     justify-content: center;
 }
 
-.profil-container>img{
+.profil-container>img {
     width: 9em;
     height: 9em;
 }
 
-.profil-container>p{
+.profil-container>p {
     margin-top: 1em;
     width: 8em;
     font-size: 1.2em;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     justify-content: center;
 }
 
-.resume-container>button{
+.resume-container>button {
     width: 400px;
 }
