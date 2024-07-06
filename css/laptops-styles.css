@@ -3,22 +3,15 @@
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header{
+    margin: 20px;
 }
 
 header>div{
-    margin: 20px;
     padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    border-radius: 20px;
-    background-color: whitesmoke;
-    width: 100%;    
 }
 
 header>div>img{
@@ -28,10 +21,7 @@ header>div>img{
 }
 
 main{
-    border-radius: 20px;
-    background-color: whitesmoke;
     margin: 20px;
-    padding: 20px 0px;
 }
 
 .profil-container{
@@ -50,7 +40,6 @@ main{
 }
 
 .profil-container>div>p{
-    color: black;
     display: flex;
     flex-direction: column;
     font-size: 1em;
@@ -64,50 +53,30 @@ main{
     justify-content: center;
 }
 
-.resume-container>button{
-    margin-top: 20px;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    background-color: rgb(67, 185, 67);
-    font-size: 1em;
-    width: 200px;
-    color: white;
-}
-
-.resume-container>button:hover{
-    cursor: pointer;
-    background-color: rgb(28, 150, 28);
-}
-
 footer{
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
-    border-radius: 20px;
 }
 
-footer>div:first-child{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
+footer>a{
+    padding: 5px 0px;
 }
 
-footer>div:last-child{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-}
-
-footer>div>a,
-footer>div>i{
-    color: black;
+footer>a,
+footer>a>i{
+    color: rgb(20, 11, 11);
     font-size: 1em;
-    font-weight: bold;
 }
 
+@media (max-width: 400px) {
+    header>div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header>div>img{
+        margin: 10px;
+    }
+}
