@@ -74,7 +74,7 @@ footer>a>i{
 @media (max-width: 400px) {
     header>div{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
     }
     header>div>img{
         margin: 10px;
