@@ -41,6 +41,7 @@ main>div{
     display: inline-block;
     padding: 15px;
     background-color: rgb(243, 127, 127);
+    border-radius: 0px 0px 10px 10px;
 }
 
 .introduction{
