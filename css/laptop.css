@@ -3,25 +3,27 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
 header{
-    margin: 20px;
-}
-
-header>div{
-    padding: 0px 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0px;
 }
 
-header>div>img{
-    background-color: white;
-    border-radius: 50%;
-    margin: 0px 20px;
+header>a{
+    margin: 20px 10px;
+    text-decoration: none;
+    color: black;
 }
 
-main{
-    margin: 20px;
+main>div{
+    margin: 20px 0px;
 }
 
 .profil-container{
@@ -35,48 +37,45 @@ main{
     border-radius: 50%;
 }
 
-.profil-container>div{
-    margin-top: 50px;
-}
-
-.profil-container>div>p{
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
+.profil-container>p{
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .resume-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    font-size: 1em;
+    border: none;
+    padding: 0px 20px;
+    background-color: #007BFF;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #0056b3;
 }
 
 footer{
-    margin: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: black;
 }
 
 footer>a{
-    padding: 5px 0px;
-}
-
-footer>a,
-footer>a>i{
-    color: rgb(20, 11, 11);
-    font-size: 1em;
-}
-
-@media (max-width: 400px) {
-    header>div{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    header>div>img{
-        margin: 10px;
-    }
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    margin-left: 20px;
 }
