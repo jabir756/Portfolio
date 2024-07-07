@@ -4,22 +4,22 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 1.3em;
 }
 
 header{
     display: flex;
     justify-content: center;
-    backdrop-filter: blur(10px);
     position: sticky;
     top: 0px;
+    background-color: rgb(20, 19, 19);
 }
 
 header>a{
     margin: 20px 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 main>div{
@@ -35,6 +35,17 @@ main>div{
 
 .profil-container>img{
     border-radius: 50%;
+}
+
+.first-name, .last-name{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(243, 127, 127);
+}
+
+.introduction{
+    padding: 50px;
+    background-color: rgb(243, 127, 127);
 }
 
 .profil-container>p{
@@ -53,10 +64,9 @@ button{
     font-size: 1em;
     border: none;
     padding: 0px 20px;
-    background-color: #007BFF;
+    background-color: #5283b7;
     color: white;
     height: 50px;
-    border-radius: 10px;
 }
 
 button:hover{
@@ -70,7 +80,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 40px 0px;
-    background-color: black;
+    background-color: rgb(20, 19, 19);
 }
 
 footer>a{
