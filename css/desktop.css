@@ -9,21 +9,21 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: center;
     position: sticky;
     top: 0px;
+}
+
+header>div{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(20, 19, 19);
 }
 
-header>a{
-    margin: 20px 10px;
+header>div>a{
+    margin: 0px 10px;
     text-decoration: none;
     color: white;
-}
-
-main>div{
-    margin: 20px 0px;
 }
 
 .profil-container{
@@ -51,7 +51,7 @@ main>div{
 
 .profil-container>p{
     text-align: center;
-    margin: 10px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .resume-container{
@@ -59,6 +59,7 @@ main>div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 40px;
 }
 
 button{
@@ -88,5 +89,4 @@ footer>a{
     text-decoration: none;
     color: white;
     padding: 10px 0px;
-    margin-left: 20px;
 }
