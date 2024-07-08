@@ -20,9 +20,9 @@ header>div{
     background-color: rgb(20, 19, 19);
 }
 
-header>div>a{
+header>div>p{
     margin: 0px 10px;
-    text-decoration: none;
+    cursor: pointer;
     color: white;
 }
 
@@ -75,6 +75,20 @@ button{
 button:hover{
     cursor: pointer;
     background-color: #0056b3;
+}
+
+#projects-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#projects-container>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:20px;
+    background-color: rgb(194, 194, 68);
+    padding: 40px;
 }
 
 footer{

@@ -1,9 +1,11 @@
-document.addEventListener('DOMContentLoaded',()=> {
-    document.getElementById('contact').addEventListener('click', ()=> {
-        let email = "example@example.com";
-        let subject = "Sujet de l'email";
-        let body = "Contenu de l'email";
-        let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoLink;
+document.addEventListener('DOMContentLoaded',()=>{
+    const projectLink = document.getElementById('projects');
+    const projectsContainer = document.getElementById('projects-container');
+
+    projectsContainer.style.display = 'none';
+
+    projectLink.addEventListener('click', ()=>{
+        projectsContainer.style.display = projectsContainer.style.display === 'none'? 'block' : 'none';
     });
+
 });
