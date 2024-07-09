@@ -13,7 +13,8 @@
 
 <body>
     <header>
-        <h1>Projects</h1>
+        <a href="./index.html">Home</a>
+        <a>Contact</a>
     </header>
     <main>
         <section>
@@ -59,13 +60,18 @@
         }
 
         body>header {
+            position: sticky;
+            top: 0px;
+            padding: 30px;
             display: flex;
             justify-content: center;
             background-color: rgb(20, 19, 19);
-            padding: 20px;
         }
 
-        body>header>h1 {
+        body>header>a {
+            margin: 0px 10px;
+            text-decoration: none;
+            cursor: pointer;
             color: white;
         }
 
