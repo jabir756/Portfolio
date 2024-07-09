@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     projectsContainer.style.display = 'none';
 
     projectLink.addEventListener('click', ()=>{
-        projectsContainer.style.display = projectsContainer.style.display === 'none'? 'block' : 'none';
+        projectsContainer.style.display = projectsContainer.style.display === 'none'? 'grid' : 'none';
     });
 
 });
