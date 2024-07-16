@@ -23,17 +23,25 @@
         body>header {
             position: sticky;
             top: 0px;
-            padding: 10px;
-            display: flex;
-            justify-content: center;
-            background-color: rgb(20, 19, 19);
         }
 
-        body>header>a {
-            margin: 0px 20px;
+        body>header>div {
+            display: flex;
+            justify-content: center;
+            background-color: #5283b7;
+            border: 1px solid black;
+        }
+
+        body>header>div>a {
             text-decoration: none;
             cursor: pointer;
+            padding: 30px;
             color: white;
+        }
+
+        body>header>div>a:hover {
+            background-color: whitesmoke;
+            color: black;
         }
 
         body>main>section {
@@ -81,8 +89,10 @@
 
 <body>
     <header>
-        <a href="./index.html">Home</a>
-        <a>Contact</a>
+        <div>
+            <a href="./index.html">Home</a>
+            <a>Contact</a>
+        </div>
     </header>
     <main>
         <section>

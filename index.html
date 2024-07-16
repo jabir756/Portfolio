@@ -27,17 +27,23 @@
     }
 
     body>header>div {
-      padding: 10px;
       display: flex;
       justify-content: center;
-      background-color: rgb(20, 19, 19);
+      border: 1px solid black;
+      backdrop-filter: blur(10px);
+      background-color: #5283b7;
     }
 
     body>header>div>a {
-      margin: 0px 20px;
+      padding: 30px;
       text-decoration: none;
       cursor: pointer;
       color: white;
+    }
+
+    body>header>div>a:hover {
+      background-color: whitesmoke;
+      color: black;
     }
 
     .profil-container {
