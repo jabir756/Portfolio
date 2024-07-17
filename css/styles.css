@@ -89,29 +89,14 @@ body>main>div>button:hover {
     background-color: #0056b3;
 }
 
-body>footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer {
     padding: 40px 0px;
     background-color: rgb(20, 19, 19);
-}
-
-body>footer>a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 0px;
 }
 
 @media screen and (max-width: 768px) {
     body {
         font-size: 1em;
         margin: 0px;
-    }
-
-    body>main>section {
-        display: grid;
-        grid-template-columns: auto;
     }
 }
