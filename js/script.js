@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
     document.getElementById('cv').addEventListener('click', ()=>{
-        window.open('https://drive.google.com/file/d/1QYOTuz_jI0riKeWBICb91fQ9KXApdr8o/view', '_blank', 'width=800,height=600')
+        window.open('https://drive.google.com/file/d/1QYOTuz_jI0riKeWBICb91fQ9KXApdr8o/view', '_self', 'width=800,height=600')
     })
 });
