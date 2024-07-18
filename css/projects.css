@@ -48,11 +48,6 @@ body>main>section>div {
     border: 1px solid black;
 }
 
-footer {
-    padding: 40px 0px;
-    background-color: rgb(20, 19, 19);
-}
-
 @media screen and (max-width: 768px) {
     body {
         font-size: 1em;
