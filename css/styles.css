@@ -22,10 +22,12 @@ body>header>div {
 }
 
 body>header>div>a {
-    padding: 30px;
+    padding: 10px;
     text-decoration: none;
     cursor: pointer;
     color: white;
+    border-radius: 10px;
+    margin: 0px 10px;
 }
 
 body>header>div>a:hover {
@@ -82,6 +84,7 @@ body>main>div>button {
     background-color: #5283b7;
     color: white;
     height: 50px;
+    border-radius: 10px;
 }
 
 body>main>div>button:hover {

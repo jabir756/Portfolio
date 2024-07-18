@@ -24,8 +24,10 @@ body>header>div {
 body>header>div>a {
     text-decoration: none;
     cursor: pointer;
-    padding: 30px;
+    padding: 10px;
     color: white;
+    border-radius: 10px;
+    margin: 0px 10px;
 }
 
 body>header>div>a:hover {
