@@ -34,32 +34,29 @@ body>header>div>a:hover {
     color: black;
 }
 
-#contact-container {
+main>div {
     display: flex;
+    margin: 20px auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    background-color: cornflowerblue;
-    height: 100px;
+    
 }
 
-#contact-container>a {
+main>div>a {
     text-decoration: none;
-    padding:5px;
     font-size: 1em;
     color: white;
-    transition: transform 1.5 ease;
-    margin: 5px 0px;
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
 }
 
-#contact-container>a:hover {
+main>div>a:hover {
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(71, 71, 243);
     cursor: pointer;
     font-size: 1em;
-    color: rgb(65, 65, 201);
-    transform: scale(1.2);
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,4 +64,5 @@ body>header>div>a:hover {
         font-size: 1em;
         margin: 0px;
     }
+
 }
