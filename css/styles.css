@@ -5,14 +5,14 @@
 }
 
 body {
-    margin: 0px 50px;
+    margin: 1px 50px;
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.3em;
 }
 
 body>header {
     position: sticky;
-    top: 0px;
+    top: 1px;
 }
 
 body>header>div {
@@ -31,20 +31,33 @@ body>header>div>a {
     background-color: whitesmoke;
 }
 
+body>header>div>a:hover{
+    scale: 1.05;
+    border: 1px solid black;
+}
+
 .profil-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin: 20px 0px;
     background-color: aliceblue;
     padding: 20px;
 }
 
-.profil-container>img {
+.profil-container>div:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+.profil-container>div:first-child>img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+.profil-container>div:last-child{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
 }
 
 .first-name,
@@ -53,17 +66,12 @@ body>header>div>a {
     padding: 10px;
     border-radius: 20px;
     border: 1px solid black;
-}
-
-.profil-container>p {
-    text-align: center;
     margin: 20px 0px 0px 0px;
 }
 
 .introduction>p {
     padding: 50px;
-    background-color: rgb(243, 127, 127);
-    
+    background-color: rgb(243, 127, 127);    
 }
 
 .resume-container {
@@ -71,7 +79,7 @@ body>header>div>a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
     background-color: aliceblue;
     margin: 20px 0px;
 }

@@ -5,14 +5,14 @@
 }
 
 body {
-    margin: 0px 50px;
+    margin: 1px 50px;
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.3em;
 }
 
 body>header {
     position: sticky;
-    top: 0px;
+    top: 1px;
 }
 
 body>header>div {
@@ -29,6 +29,11 @@ body>header>div>a {
     padding: 20px;
     color: black;
     background-color: whitesmoke;
+}
+
+body>header>div>a:hover{
+    scale: 1.05;
+    border: 1px solid black;
 }
 
 main>div {
