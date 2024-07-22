@@ -53,7 +53,7 @@ main>div>a:hover {
     border-radius: 10px;
     cursor: pointer;
     font-size: 1em;
-    scale: 1.2;
+    scale: 1.05;
 }
 
 body>main>section {
@@ -74,7 +74,7 @@ body>main>section>div {
 @media screen and (max-width: 768px) {
     body {
         font-size: 1em;
-        margin: 0px;
+        margin: 0px 20px;
     }
     
     body>main>section {

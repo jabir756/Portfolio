@@ -38,11 +38,12 @@ body>header>div>a {
     flex-direction: column;
     margin: 20px 0px;
     background-color: aliceblue;
-    padding: 10px;
+    padding: 20px;
 }
 
 .profil-container>img {
-    margin-top: 20px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -93,6 +94,6 @@ body>main>div>button:hover {
 @media screen and (max-width: 768px) {
     body {
         font-size: 1em;
-        margin: 0px;
+        margin: 0px 20px;
     }
 }
