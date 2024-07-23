@@ -12,7 +12,7 @@ body{
 
 img {
     width: 700px;
-    height: 90vh;
+    height: 700px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -21,6 +21,7 @@ main {
     display: flex;
     flex-direction: row;
 }
+
 .profil {
     margin: 20px 10px;
 }
@@ -147,4 +148,43 @@ button:hover {
     scale: 1.05;
     background-color: #007B9E;
     color: white;
+}
+
+@media screen and (max-width: 860px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .introduction> div:last-child> p {
+        font-size: 1em;
+    }
+
+    .contact> div:last-child {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .contact> div:last-child> a {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
 }
