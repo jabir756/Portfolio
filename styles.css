@@ -32,7 +32,7 @@ section {
 }
 
 section> div {
-    margin: 20px 10px 0px 10px;
+    margin: 20px;
     border-radius: 10px;
 }
 
@@ -53,7 +53,7 @@ section> div {
 }
 
 .introduction> div:first-child> h1 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .introduction> div:last-child> p {
@@ -80,7 +80,7 @@ section> div {
 }
 
 .resume> div:first-child> h1 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .resume> div:last-child {
@@ -123,7 +123,7 @@ button:hover {
 }
 
 .contact> div:first-child> h1 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .contact> div:last-child {
