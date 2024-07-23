@@ -53,7 +53,7 @@ section> div {
 }
 
 .introduction> div:first-child> h1 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .introduction> div:last-child> p {
@@ -80,7 +80,7 @@ section> div {
 }
 
 .resume> div:first-child> h1 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .resume> div:last-child {
@@ -123,7 +123,7 @@ button:hover {
 }
 
 .contact> div:first-child> h1 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .contact> div:last-child {
