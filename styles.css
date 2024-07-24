@@ -4,17 +4,22 @@
     padding: 0;
 }
 
-body{
-    background-color: wheat;
-    font-family: 'Roboto mono', monospace;
-    font-style: italic;
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img {
     width: 700px;
-    height: 700px;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+img:hover {
+    scale: 1.005;
+    cursor: pointer;
 }
 
 main {
@@ -37,13 +42,13 @@ section > div {
 }
 
 .introduction {
-    background-color: whitesmoke;
-    border: 1px solid black;
     padding: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
-.introduction:hover{
-    scale: 1.005;
+.introduction:hover {
+    scale: 1.05;
 }
 
 .introduction > div:first-child {
@@ -57,20 +62,20 @@ section > div {
 }
 
 .introduction > div:last-child> p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: black;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .resume {
-    background-color: whitesmoke;
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
     padding: 10px;
 }
 
 .resume:hover{
-    scale: 1.005;
+    scale: 1.05;
 }
 
 .resume > div:first-child {
@@ -87,7 +92,7 @@ section > div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 button {
@@ -102,17 +107,17 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #007B9E;
-    scale: 1.1;
+    scale: 1.05;
 }
 
 .contact {
-    background-color: whitesmoke;
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
     padding: 10px;
 }
 
 .contact:hover {
-    scale: 1.005;
+    scale: 1.05;
 }
 
 .contact > div:first-child {
@@ -129,10 +134,9 @@ button:hover {
 .contact > div:last-child {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     padding: 10px;
 }
-
 
 .contact > div:last-child > a {
     margin: 0px 10px;
@@ -142,6 +146,7 @@ button:hover {
     border-radius: 10px;
     text-decoration: none;
     color: white;
+    font-size: 1em;
 }
 
 .contact > div:last-child > a:hover{
@@ -163,7 +168,7 @@ button:hover {
     }
 
     img {
-        width: 400px;
+        width: 100%;
         height: 400px;
     }
 
@@ -173,23 +178,23 @@ button:hover {
     }
 
     .introduction > div:last-child > p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .contact > div:last-child {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 0px;
     }
 
     .contact > div:last-child > a {
-        margin: 10px 0px;
+        margin: 0px 0px 10px 0px;
     }
 }
 
 @media screen and (max-width: 400px) {
     img {
-        width: 300px;
+        width: 100%;
         height: 300px;
     }
 }
