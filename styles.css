@@ -1,164 +1,122 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-img {
-    width: 700px;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
-}
-
-img:hover {
-    scale: 1.005;
-    cursor: pointer;
+    box-sizing: border-box;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    background-color: #007B9E;
-
 }
 
 .profil {
-    margin: 20px 10px;
+    display: flex;
+    height: 100vh;
 }
 
-section {
+img {
+    width: 700px;
+    object-fit: cover;
+}
+
+.profil>p {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+}
+
+.about {
     display: flex;
     flex-direction: column;
-    background-color: cadetblue;
-    border-radius: 20px;
-    margin: 20px 0px;
+    margin: 0px 50px;
 }
 
-section>div {
-    margin: 20px 20px 0px 20px;
-    border-radius: 10px;
+.about>div:first-child>h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
 }
 
-.introduction {
-    padding: 10px;
-    background-color: white;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
-}
-
-.introduction:hover {
-    scale: 1.02;
-}
-
-.introduction>div:first-child {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    color: black ;
-}
-
-.introduction>div:last-child>p {
-    font-size: 1.2em;
-    color: black;
-    text-align: center;
-    padding: 5px;
+.about>div:nth-child(2)>p {
+    font-size: x-large;
+    margin-bottom: 20px;
 }
 
 .resume {
-    background-color: white;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-}
-
-.resume:hover {
-    scale: 1.02;
-}
-
-.resume>div:first-child {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    flex-direction: column;
+    margin: 0px 50px;
 }
 
-.resume>div:last-child {
+.resume>div:first-child>h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.resume>div:nth-child(2) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+}
+
+.resume>div:nth-child(2)>button {
+    margin-bottom: 20px;
 }
 
 button {
-    padding: 10px;
+    padding: 20px;
     background-color: #008CBA;
     border: none;
-    border-radius: 10px;
     color: white;
     font-size: 1em;
+    margin-right: 10px;
+    width: fit-content;
 }
 
 button:hover {
+    background-color: #07a9e0;
     cursor: pointer;
-    background-color: #007B9E;
-    scale: 1.05;
 }
 
 .contact {
-    background-color: white;
-    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
 }
 
-.contact:hover {
-    scale: 1.02;
+.contact>div:first-child>h1 {
+    font-size: xx-large;
+    margin-bottom: 35px;
 }
 
-.contact>div:first-child {
+.contact>div:nth-child(2) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 10px;
 }
 
-.contact>div:last-child {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-}
-
-.contact>div:last-child>a {
-    margin: 0px 10px;
-    padding: 10px;
-    width: fit-content;
-    background-color: #008CBA;
-    border-radius: 10px;
+.contact>div:nth-child(2)>a {
+    margin: 0px 10px 20px 0px;
     text-decoration: none;
+    background-color: #008CBA;
     color: white;
-    font-size: 1em;
+    padding: 20px;
+    width: fit-content;
 }
 
-.contact>div:last-child>a:hover {
-    scale: 1.05;
-    background-color: #007B9E;
-    color: white;
+.contact>div:nth-child(2)>a:hover {
+    background-color: #07a9e0;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
     main {
-        display: flex;
         flex-direction: column;
     }
 
     .profil {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+        height: 400px;
     }
 
     img {
@@ -166,22 +124,22 @@ button:hover {
         height: 400px;
     }
 
-    section>div {
-        margin: 20px 20px 0px 20px;
-        border-radius: 10px;
-    }
-
-    .introduction>div:last-child>p {
-        font-size: 1.2em;
-    }
-
-    .contact>div:last-child {
+    .resume>div:nth-child(2) {
         flex-direction: column;
-        align-items: center;
-        padding: 0px;
     }
 
-    .contact>div:last-child>a {
-        margin: 0px 0px 10px 0px;
+    .contact>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .profil>p {
+        top: 10px;
+        left: 10px;
+        color: coral;
+        font-weight: bold;
+    }
+
+    .about>div:nth-child(2)>p {
+        font-size: large;
     }
 }
