@@ -1,63 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <title>jabir's portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <main>
-    <section class="section1">
-      <div class="profil">
-        <img src="avatar.jpg" alt="" />
-        <p>Jabir Kagone</p>
-      </div>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <img src="./avatar.jpg" alt="profil-img" width="200px" height="200px">
+        <h2>À propos de moi</h2>
+        <p>Bonjour, je suis Jabir Kagone, un développeur junior passionné.</p>
     </section>
 
-    <section class="section2">
-      <div class="about">
-        <div>
-          <h1>About</h1>
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <img src="images/projet1.jpg" alt="Projet 1">
+            <h3>Projet 1</h3>
+            <p>Description du projet 1.</p>
         </div>
-        <div>
-          <p>Welcome to my portfolio ! I am a junior developer passionate about software development
-            and creating innovative solutions. My journey has been guided by an insatiable curiosity about technology
-            and a
-            constant desire to learn and improve.
-          </p>
+        <div class="project">
+            <img src="images/projet2.jpg" alt="Projet 2">
+            <h3>Projet 2</h3>
+            <p>Description du projet 2.</p>
         </div>
-      </div>
-
-      <div class="resume">
-        <div>
-          <h1>Resume</h1>
-        </div>
-        <div>
-          <button id="cv">Download resume</button>
-        </div>
-      </div>
-
-      <div class="contact">
-        <div>
-          <h1>Contacts</h1>
-        </div>
-        <div>
-          <a href="https://github.com/jabir756" target="_blank"><span class="fab fa-github"></span>GitHub</a>
-          <a href=""><span class="fas fa-envelope"></span>jabirkagone6@gmail.com</a>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <script>
-    document.getElementById('cv').addEventListener('click', () => {
-      window.open('https://drive.google.com/file/d/1QYOTuz_jI0riKeWBICb91fQ9KXApdr8o/view')
-    })
-  </script>
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <button id="mail">Mail</button>
+    </section>
+
+    </main>
+    <button id="back-to-top">⏫</button>
+
+    <footer>
+        <p>Jabir Kagone; 2024 Mon Portfolio.</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
-
 </html>
