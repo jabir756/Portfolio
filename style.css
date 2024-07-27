@@ -45,6 +45,7 @@ section {
     padding: 2rem 0;
     text-align: center;
 }
+
 #about img {
     border-radius: 50%;
     object-fit: cover;
@@ -78,7 +79,7 @@ section {
 #back-to-top {
     position: fixed;
     bottom: 20px;
-    right:20px;
+    right: 20px;
     border: none;
     background: transparent;
     font-size: xx-large;
