@@ -6,7 +6,7 @@
 
 body {
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 img {
@@ -25,6 +25,8 @@ img:hover {
 main {
     display: flex;
     flex-direction: row;
+    background-color: #007B9E;
+
 }
 
 .profil {
@@ -34,6 +36,9 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin: 20px 0px;
 }
 
 section>div {
@@ -48,21 +53,18 @@ section>div {
 }
 
 .introduction:hover {
-    scale: 1.05;
+    scale: 1.02;
 }
 
 .introduction>div:first-child {
     display: flex;
     justify-content: center;
     padding: 10px;
-}
-
-.introduction>div:first-child>h1 {
-    font-size: 1.5em;
+    color: black ;
 }
 
 .introduction>div:last-child>p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black;
     text-align: center;
     padding: 5px;
@@ -75,17 +77,13 @@ section>div {
 }
 
 .resume:hover {
-    scale: 1.05;
+    scale: 1.02;
 }
 
 .resume>div:first-child {
     display: flex;
     justify-content: center;
     padding: 10px;
-}
-
-.resume>div:first-child>h1 {
-    font-size: 1.5em;
 }
 
 .resume>div:last-child {
@@ -117,7 +115,7 @@ button:hover {
 }
 
 .contact:hover {
-    scale: 1.05;
+    scale: 1.02;
 }
 
 .contact>div:first-child {
@@ -125,10 +123,6 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
-}
-
-.contact>div:first-child>h1 {
-    font-size: 1.5em;
 }
 
 .contact>div:last-child {
@@ -173,7 +167,7 @@ button:hover {
     }
 
     section>div {
-        margin: 0px 20px 20px 20px;
+        margin: 20px 20px 0px 20px;
         border-radius: 10px;
     }
 
@@ -189,12 +183,5 @@ button:hover {
 
     .contact>div:last-child>a {
         margin: 0px 0px 10px 0px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    img {
-        width: 100%;
-        height: 300px;
     }
 }
