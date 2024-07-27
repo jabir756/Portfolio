@@ -13,4 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     backToTopButton.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
+
+    /*mail to*/
+    document.getElementById("mail").addEventListener("click", function () {
+        window.location.href = "mailto:jabirkagone6@gmail.com";
+    });
 });
