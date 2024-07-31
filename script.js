@@ -1,21 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Bouton de retour en haut de page
-    const backToTopButton = document.getElementById("back-to-top");
+    const backToTop = document.getElementById("back-to-top-btn");
 
     window.addEventListener("scroll", function () {
         if (window.scrollY > 200) {
-            backToTopButton.style.display = "block";
+            backToTop.style.display = "block";
         } else {
-            backToTopButton.style.display = "none";
+            backToTop.style.display = "none";
         }
     });
 
-    backToTopButton.addEventListener("click", function () {
+    backToTop.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
     /*mail to*/
-    document.getElementById("mail").addEventListener("click", function () {
+    document.getElementById("mail-btn").addEventListener("click", function () {
         window.location.href = "mailto:jabirkagone6@gmail.com";
     });
 });
